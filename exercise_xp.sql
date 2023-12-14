@@ -89,7 +89,7 @@ ORDER BY customer.customer_id
 SELECT * FROM film
 LEFT JOIN inventory 
 ON film.film_id = inventory.film_id
-WHERE inventory.inventory_id is NULL
+WHERE inventory_id is NULL
 
 -- 14. Write a query to find which city is in which country.
 SELECT * FROM city
