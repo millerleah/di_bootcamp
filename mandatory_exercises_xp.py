@@ -164,11 +164,13 @@
 #         age_teen = int(age_teen)
 #         if age_teen > 16 and age_teen < 21:
 #             print("You are old enough to watch!")
-#         if age_teen < 16:
+#         elif age_teen > 21:
+#             print("You are old enough to watch!")
+#         elif age_teen < 16:
 #             print("You are to young to watch, sorry!")
 #             name_teen.remove(name)
 #         break
-# print(name_teen)
+# print(f'The teens who can enter the movie are:\n{name_teen}')
 
 
 # Exercise 10 : Sandwich Orders
