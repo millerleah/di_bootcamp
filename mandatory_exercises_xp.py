@@ -148,7 +148,7 @@
 #         print(f'Your total is ${sum(list_price)}')
 #         break
 #     age = int(age)
-#     if age < 3:
+#     elif age < 3:
 #         list_price.append(0)
 #     elif age > 3 and int(age) < 12:
 #         list_price.append(10)
