@@ -67,29 +67,29 @@
 
 // The moons are't appearing and I do not know why.
 
-const planetsMoons = [
-  { name: "Earth", moons: 1 },
-  { name: "Mars", moons: 2 },
-  { name: "Mercury", moons: 0 },
-  { name: "Jupiter", moons: 5 },
-  { name: "Uranus", moons: 2 },
-  { name: "Neptune", moons: 4 },
-  { name: "Saturn", moons: 6 },
-  { name: "Venus", moons: 0 },
-];
+// const planetsMoons = [
+//   { name: "Earth", moons: 1 },
+//   { name: "Mars", moons: 2 },
+//   { name: "Mercury", moons: 0 },
+//   { name: "Jupiter", moons: 5 },
+//   { name: "Uranus", moons: 2 },
+//   { name: "Neptune", moons: 4 },
+//   { name: "Saturn", moons: 6 },
+//   { name: "Venus", moons: 0 },
+// ];
 
-for (const planet of planetsMoons) {
-  const planetsDiv = document.createElement("div");
-  planetsDiv.classList.add("planet");
-  planetsDiv.classList.add(planet.name.toLowerCase());
+// for (const planet of planetsMoons) {
+//   const planetsDiv = document.createElement("div");
+//   planetsDiv.classList.add("planet");
+//   planetsDiv.classList.add(planet.name.toLowerCase());
 
-  for (let i = 0; i < planetsMoons.moons; i++) {
-    const moonDiv = document.createElement("div");
-    moonDiv.classList.add(".moon");
-    moonDiv.style.left = i * 10 + "px";
-    planetsDiv.appendChild(moonDiv);
-  }
+//   for (let i = 0; i < planetsMoons.moons; i++) {
+//     const moonDiv = document.createElement("div");
+//     moonDiv.classList.add(".moon");
+//     moonDiv.style.left = i * 10 + "px";
+//     planetsDiv.appendChild(moonDiv);
+//   }
 
-  const appending = document.querySelector(".listPlanets");
-  appending.appendChild(planetsDiv);
-}
+//   const appending = document.querySelector(".listPlanets");
+//   appending.appendChild(planetsDiv);
+// }
