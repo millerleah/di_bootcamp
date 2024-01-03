@@ -76,7 +76,7 @@ function appendStory(story) {
 }
 
 function writeStory(noun, adjective, person, verb, place) {
-  return `I took on my hike a ${noun}. I saw a very ${adjective} bird. My friend ${person} joined me in the middle. I ${verb} by the water. The hike ended up by ${place}. `;
+  return `I took on my hike a ${noun}. I saw a very ${adjective} bird. My friend ${person} joined me in the middle. I ${verb} by the water. The hike ended up by ${place}.\n\n`;
 }
 
 const button = getButton();
