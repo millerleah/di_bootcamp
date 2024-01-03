@@ -37,6 +37,7 @@ const cloneGroceries = () => {
   console.log(user);
   console.log(client);
   //No, It looks at client and pulls over the value o the string, they are different variable and independant of each other.
+  // When it looks at a string it looks at the value
   const shopping = groceries;
   groceries.totalPrice = "$35";
   console.log(shopping);
@@ -46,6 +47,7 @@ const cloneGroceries = () => {
   console.log(shopping);
   console.log(groceries);
   //Yes, same as above.
+  // and it doesnt look at the value of the object, but the address, so if they are the same then they are the same in memory
 };
 
 // 3. Invoke the cloneGroceries function.
