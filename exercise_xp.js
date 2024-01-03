@@ -303,8 +303,7 @@
 
 // b. Do not display the <li> that contains the text node “Dan”. (the last <li> of the first <ul>)
 
-// const dan = (document.querySelectorAll(".list")[1].children[2].style.display =
-//   "none");
+// const dan = (document.querySelectorAll(".list")[1].children[2].style.display = "none");
 
 // c. Add a border to the <li> that contains the text node “Richard”. (the second <li> of the <ul>)
 
