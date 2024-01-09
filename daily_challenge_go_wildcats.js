@@ -36,7 +36,7 @@ const usernames = getUsernamesFromArray(gameInfo);
 console.log(usernames);
 
 function getUsernamesFromArray(users) {
-  const usernames = [];
+  let usernames = [];
   for (const user of users) {
     usernames.push(user.username + "!");
   }
@@ -48,31 +48,25 @@ function getUsernamesFromArray(users) {
 
 // const winners = ["becky", "susy"]
 
-const usersWithScoreBiggerThan5 = getUsernamesAcordingToScore(gameInfo);
+const usersWithScoreBiggerThan5 =
+  getUsernamesAcordingToScoreFromArray(gameInfo);
 console.log(usersWithScoreBiggerThan5);
 
-function getUsernamesAcordingToScore(users) {
-  const HighScorer = [];
+function getUsernamesAcordingToScoreFromArray(users) {
+  let winners = [];
   for (const user of users) {
     if (user.score > 5) {
-      HighScorer.push(user.username);
+      winners.push(user.username);
     }
   }
-  return HighScorer;
+  return winners;
 }
 
 // 3. Find and display the total score of the users. (Hint: The total score is 71)
 
-const allScores = gettotalScore(gameInfo);
-const totalScores = allScores.reduce(
-  (accumulator, currentValue) => accumulator + currentValue
-);
+const totalScores = gettotalScoreFromArray(gameInfo);
 console.log(totalScores);
 
-function gettotalScore(score) {
-  const allScores = [];
-  for (const s of score) {
-    allScores.push(s.score);
-  }
-  return allScores;
+function gettotalScoreFromArray(players) {
+  return players.reduce((total, current) => total + current.score, 0);
 }
