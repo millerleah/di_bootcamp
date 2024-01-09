@@ -64,9 +64,8 @@ function getUsernamesAcordingToScoreFromArray(users) {
 
 // 3. Find and display the total score of the users. (Hint: The total score is 71)
 
-const totalScores = gettotalScoreFromArray(gameInfo);
+const totalScores = gameInfo.reduce(
+  (total, current) => total + current.score,
+  0
+);
 console.log(totalScores);
-
-function gettotalScoreFromArray(players) {
-  return players.reduce((total, current) => total + current.score, 0);
-}
