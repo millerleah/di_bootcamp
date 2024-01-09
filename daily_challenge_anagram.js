@@ -30,7 +30,6 @@ function isAnagrams(word1, word2) {
       total[letter] = 1;
     }
   }
-  //   total[letter] = total[letter] ? total[letter] + 1 || 1
   for (const letter of str2) {
     if (total[letter] != null) {
       total[letter]--;
@@ -38,7 +37,6 @@ function isAnagrams(word1, word2) {
       total[letter] = -1;
     }
   }
-  //   total[letter] = total[letter] ? total[letter] - 1 : -1
   const diffrence = Object.values(total);
   return diffrence.every((num) => num === 0);
 }
