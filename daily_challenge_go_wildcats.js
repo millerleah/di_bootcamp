@@ -52,11 +52,11 @@ const usersWithScoreBiggerThan5 =
   getUsernamesAcordingToScoreFromArray(gameInfo);
 console.log(usersWithScoreBiggerThan5);
 
-function getUsernamesAcordingToScoreFromArray(users) {
+function getUsernamesAcordingToScoreFromArray(players) {
   let winners = [];
-  for (const user of users) {
-    if (user.score > 5) {
-      winners.push(user.username);
+  for (const player of players) {
+    if (player.score > 5) {
+      winners.push(player.username);
     }
   }
   return winners;
