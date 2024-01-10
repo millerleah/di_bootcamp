@@ -61,8 +61,8 @@
 // Excepted output: [ [ 'user1', 36546 ], [ 'user2', 185666 ], [ 'user3', 180630 ] ]
 
 // multIdBy2 = [];
-// for (const entrie of entries) {
-//   multIdBy2.push([entrie[0], entrie[1] * 2]);
+// for (const entry of entries) {
+//   multIdBy2.push([entry[0], entry[1] * 2]);
 // }
 
 // console.log(multIdBy2);
