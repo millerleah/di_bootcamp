@@ -75,7 +75,6 @@ export function Voting() {
 //   flex-direction: column;
 // }
 // .language {
-//   display: flex;
 //   border: 1px solid black;
 //   background-color: #ffebcd;
 //   padding: 1rem;
