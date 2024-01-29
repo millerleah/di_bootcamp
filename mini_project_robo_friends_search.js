@@ -141,3 +141,83 @@ function filterList() {
 }
 
 postMethods();
+
+// In html file:
+// <!DOCTYPE html>
+// <html lang="en">
+//   <head>
+//     <meta charset="UTF-8" />
+//     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+//     <title>Document</title>
+//     <link rel="stylesheet" href="./mini_project_robo_friends_search.css" />
+//     <link
+//       href="https://fonts.cdnfonts.com/css/sega-logo-font"
+//       rel="stylesheet"
+//     />
+//   </head>
+//   <body>
+//     <div class="main-div">
+//       <div class="search-container">
+//         <label for="search">RoboFriends</label>
+//         <input
+//           type="text"
+//           id="searchRobot"
+//           placeholder="Search for a Robot"
+//           name="search"
+//         />
+//       </div>
+//     </div>
+//     <div class="card-container"></div>
+//     <script src="./mini_project_robo_friends_search.js"></script>
+//   </body>
+// </html>
+
+// In css file:
+// * {
+//   margin: 0;
+//   padding: 0;
+//   box-sizing: border-box;
+//   text-transform: capitalize;
+//   letter-spacing: 0.5px;
+// }
+
+// body {
+//   background-image: url("./circuit-pattern.png");
+//   background-color: navy;
+// }
+
+// .search-container {
+//   width: auto;
+//   height: 75px;
+//   padding: 10px;
+//   font-size: 50px;
+//   font-family: "SEGA LOGO FONT", sans-serif;
+//   background-color: lightgreen;
+// }
+
+// #searchRobot {
+//   display: inline-block;
+//   margin-left: 200px;
+//   width: 400px;
+//   height: 40px;
+// }
+
+// .card-container {
+//   width: 80%;
+//   margin: 4rem auto;
+//   display: grid;
+//   grid-template-columns: repeat(4, 1fr);
+//   gap: 2rem;
+// }
+
+// .card {
+//   padding: 2rem;
+//   box-shadow: 0 0 0.4rem 0.4rem rgba(0, 0, 0, 0.2);
+//   transition: 0.4s ease-in;
+//   background-image: url("./card-pattern.png");
+//   background-color: darkturquoise;
+// }
+
+// .card:hover {
+//   background-color: azure;
+// }
