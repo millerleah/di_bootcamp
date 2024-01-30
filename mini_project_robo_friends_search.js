@@ -114,7 +114,7 @@ const postMethods = () => {
     img.setAttribute("src", robot.image);
     img.style.width = "200px";
     img.style.borderRadius = "50%";
-    img.style.backgroundColor = "CornflowerBlue";
+    img.style.backgroundColor = "DarkOrchid";
 
     postElement.append(img, h2, p);
     postContainer.appendChild(postElement);
