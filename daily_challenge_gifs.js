@@ -79,6 +79,8 @@ delAll.addEventListener("click", function (e) {
 //     <title>Document</title>
 //   </head>
 //   <body>
+//     <h1>Javascript Week 7 Day 4</h1>
+//     <h2>Daily Challenge Gifs</h2>
 //     <form action="">
 //       <input type="text" />
 //       <input type="submit" />
